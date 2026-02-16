@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ghostwhisper",
+      "sha256_cert_fingerprints":
+      ["DB:46:FF:60:F0:C1:2F:43:04:85:E5:05:56:54:E6:77:4F:DD:E7:33:4A:30:F0:DD:88:7F:B2:45:A1:77:ED:C4"]
+    }
+  }
+]
