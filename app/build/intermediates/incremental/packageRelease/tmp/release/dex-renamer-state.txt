@@ -1,0 +1,4 @@
+#Mon Feb 16 22:35:58 IST 2026
+base.0=/Users/chhayanshporwal/Projects/Ghost Whisper/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

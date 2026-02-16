@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ghost Whisper</string>
+    <string name="accessibility_service_description">Ghost Whisper enhances your messaging experience by providing private, encrypted communication channels within WhatsApp. This service reads message content to decode private messages and assists with composing encrypted replies.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_channels">Channels</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_testbench">TestBench</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Ghost Whisper</string>
+    <string name="home_subtitle">Security through Invisibility</string>
+    <string name="service_status_active">Service Active</string>
+    <string name="service_status_inactive">Service Inactive</string>
+    <string name="enable_service">Enable Accessibility Service</string>
+    <string name="enable_overlay">Enable Overlay Permission</string>
+
+    <!-- Channel Screen -->
+    <string name="channels_title">My Channels</string>
+    <string name="create_channel">Create Channel</string>
+    <string name="channel_name_hint">Channel Name</string>
+    <string name="share_via_qr">Share via QR Code</string>
+    <string name="share_via_link">Copy Invite Link</string>
+    <string name="delete_channel">Delete Channel</string>
+    <string name="no_channels">No channels yet. Create one to get started!</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="security_section">Security</string>
+    <string name="app_lock">App Lock</string>
+    <string name="app_lock_desc">Require biometric or PIN to open settings</string>
+    <string name="chaffing_mode">Chaffing Mode</string>
+    <string name="chaffing_mode_desc">Inject random invisible characters into all messages to defeat traffic analysis</string>
+    <string name="clipboard_guard">Clipboard Guard</string>
+    <string name="clipboard_guard_desc">Automatically strip hidden data when messages are copied</string>
+    <string name="cover_messages_section">Cover Messages</string>
+    <string name="add_cover_message">Add Cover Message</string>
+    <string name="appearance_section">Appearance</string>
+    <string name="overlay_timeout">Overlay Timeout</string>
+    <string name="overlay_color">Overlay Color</string>
+
+    <!-- TestBench Screen -->
+    <string name="testbench_title">TestBench</string>
+    <string name="input_hint">Type your secret message…</string>
+    <string name="cover_hint">Cover message (visible text)</string>
+    <string name="encrypt_button">Encrypt &amp; Encode</string>
+    <string name="decrypt_button">Decrypt &amp; Decode</string>
+    <string name="encoded_output">Encoded Output (with invisible chars)</string>
+    <string name="decoded_output">Decoded Message</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+
+    <!-- Overlay -->
+    <string name="overlay_reply">Reply</string>
+    <string name="overlay_copy">Copy</string>
+    <string name="overlay_close">Close</string>
+
+    <!-- Widget -->
+    <string name="widget_notification_title">Ghost Whisper Active</string>
+    <string name="widget_notification_text">Monitoring for encrypted messages</string>
+    <string name="channel_public">Public (Normal)</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="key_imported">Channel key imported successfully!</string>
+</resources>

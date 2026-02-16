@@ -1,0 +1,81 @@
+com.ghostwhisper.app-lifecycle-runtime-compose-release-0 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/0057894f4ea062bf376a0e2135a0c830/transformed/lifecycle-runtime-compose-release/res
+com.ghostwhisper.app-runtime-release-1 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/04f541b7b9b07596dbdf5e6923be11e6/transformed/runtime-release/res
+com.ghostwhisper.app-navigation-common-ktx-2.8.5-2 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/1095075167637ab9c29852fc636a7e95/transformed/navigation-common-ktx-2.8.5/res
+com.ghostwhisper.app-core-common-2.0.3-3 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/13f5141c2f9000ca2cc5a533f8f9724a/transformed/core-common-2.0.3/res
+com.ghostwhisper.app-play-services-base-18.9.0-4 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/14bcece5513d0c94078c57d311c71526/transformed/play-services-base-18.9.0/res
+com.ghostwhisper.app-customview-poolingcontainer-1.0.0-5 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/16edad388960a8632ebcda4893fd985f/transformed/customview-poolingcontainer-1.0.0/res
+com.ghostwhisper.app-lifecycle-viewmodel-ktx-2.8.7-6 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/191678e5036dd4ba69d67ef4d641b1d5/transformed/lifecycle-viewmodel-ktx-2.8.7/res
+com.ghostwhisper.app-startup-runtime-1.1.1-7 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/216026fa10f3c9c86c74cabd4d549431/transformed/startup-runtime-1.1.1/res
+com.ghostwhisper.app-ui-release-8 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/2dd233f0ce05d327f103ac847493fed6/transformed/ui-release/res
+com.ghostwhisper.app-lifecycle-livedata-core-2.8.7-9 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/3321a9b6b685b76bf9510b8a1d6ece2c/transformed/lifecycle-livedata-core-2.8.7/res
+com.ghostwhisper.app-sqlite-framework-2.4.0-10 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/33995e919196c4eb71af0a0193a84189/transformed/sqlite-framework-2.4.0/res
+com.ghostwhisper.app-ui-text-release-11 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/3405b2ad82ebe253c05cb049f46ca6a7/transformed/ui-text-release/res
+com.ghostwhisper.app-ui-geometry-release-12 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/36941242fdee17ecc516291cf8fea55f/transformed/ui-geometry-release/res
+com.ghostwhisper.app-browser-1.4.0-13 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/36ffee37625139e6669b35f5bde0c97b/transformed/browser-1.4.0/res
+com.ghostwhisper.app-ui-unit-release-14 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/3caffcd37a02525eb3f409ff8b8fff54/transformed/ui-unit-release/res
+com.ghostwhisper.app-lifecycle-runtime-release-15 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/43ffd03167fde05f4d68811ee9af17b3/transformed/lifecycle-runtime-release/res
+com.ghostwhisper.app-activity-ktx-1.9.3-16 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/4585ba6f8d49d7a0b3ba4f7b0ea77022/transformed/activity-ktx-1.9.3/res
+com.ghostwhisper.app-material-ripple-release-17 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/491da6c215c4a69f3d0303a5b26a811a/transformed/material-ripple-release/res
+com.ghostwhisper.app-appcompat-1.2.0-18 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/493b3478921cd092e5ea1022cf859294/transformed/appcompat-1.2.0/res
+com.ghostwhisper.app-navigation-runtime-2.8.5-19 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/4a0e8691272b5993824713cbd1da4b95/transformed/navigation-runtime-2.8.5/res
+com.ghostwhisper.app-navigation-compose-2.8.5-20 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/4a3607f09cc3f99d3dc9b5c4cff02713/transformed/navigation-compose-2.8.5/res
+com.ghostwhisper.app-runtime-saveable-release-21 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/513af62f51854154a9c9a6b0caa503cc/transformed/runtime-saveable-release/res
+com.ghostwhisper.app-ui-graphics-release-22 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/52f27459199309c10d1a168ce49e1d8c/transformed/ui-graphics-release/res
+com.ghostwhisper.app-foundation-release-23 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/54f81a83a8d4f2d329f387ff5b165767/transformed/foundation-release/res
+com.ghostwhisper.app-room-ktx-2.6.1-24 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/577cb28f7cffc566ad6da51d29e38d7a/transformed/room-ktx-2.6.1/res
+com.ghostwhisper.app-biometric-1.1.0-25 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/5e9330a86ad19a48193c0fa5ac09ee5f/transformed/biometric-1.1.0/res
+com.ghostwhisper.app-lifecycle-viewmodel-savedstate-2.8.7-26 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/61d5892eeba36aee6c64a1a1b75e4953/transformed/lifecycle-viewmodel-savedstate-2.8.7/res
+com.ghostwhisper.app-material-icons-core-release-27 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/6784d5625b3c77308e12428fb7349c44/transformed/material-icons-core-release/res
+com.ghostwhisper.app-graphics-path-1.0.1-28 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/6b8e30a72be5a0721bfdff99e8447713/transformed/graphics-path-1.0.1/res
+com.ghostwhisper.app-lifecycle-process-2.8.7-29 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/6bdca1e8ac92b56c85e0d3b95eacd3ed/transformed/lifecycle-process-2.8.7/res
+com.ghostwhisper.app-lifecycle-runtime-ktx-release-30 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/6c2ac2fb56f3bd9d715db58c64e0a5f0/transformed/lifecycle-runtime-ktx-release/res
+com.ghostwhisper.app-credentials-1.3.0-31 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/6cee6817363b9ead0ba0d7266fe19460/transformed/credentials-1.3.0/res
+com.ghostwhisper.app-emoji2-1.3.0-32 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/7185f8750a78238faad6fa8fdc31345f/transformed/emoji2-1.3.0/res
+com.ghostwhisper.app-play-services-auth-21.3.0-33 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/749f8397d68b52dc1ad722a3c1468dd6/transformed/play-services-auth-21.3.0/res
+com.ghostwhisper.app-ads-adservices-1.1.0-beta11-34 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/74e10a910b698d4d2b4a6dcc9d59a9b8/transformed/ads-adservices-1.1.0-beta11/res
+com.ghostwhisper.app-lifecycle-viewmodel-release-35 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/74e69fd8bb53861b6dce9a6e3e0f4747/transformed/lifecycle-viewmodel-release/res
+com.ghostwhisper.app-activity-compose-1.9.3-36 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/7732ea8e8733b1cce65cf3a464453e59/transformed/activity-compose-1.9.3/res
+com.ghostwhisper.app-navigation-runtime-ktx-2.8.5-37 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/7779bb7802ca5573fc1926534e05b0bf/transformed/navigation-runtime-ktx-2.8.5/res
+com.ghostwhisper.app-foundation-layout-release-38 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/7e103172b70fafae1e02aca60960ccc0/transformed/foundation-layout-release/res
+com.ghostwhisper.app-sqlite-2.4.0-39 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/82b70f499669e93d8124fd6b9764eaca/transformed/sqlite-2.4.0/res
+com.ghostwhisper.app-ui-util-release-40 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/83642794806b399b2486a4d053ff6824/transformed/ui-util-release/res
+com.ghostwhisper.app-animation-core-release-41 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/877e8516bf5baf68d4c15590b365b614/transformed/animation-core-release/res
+com.ghostwhisper.app-core-ktx-1.15.0-42 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/886cfada1bfbaa79347187e25c192fa6/transformed/core-ktx-1.15.0/res
+com.ghostwhisper.app-credentials-play-services-auth-1.3.0-43 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/8cd639c272916336de8aa48499d92f1b/transformed/credentials-play-services-auth-1.3.0/res
+com.ghostwhisper.app-ui-tooling-release-44 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/8d565369aeab2bd1ab2a00da4c25ff80/transformed/ui-tooling-release/res
+com.ghostwhisper.app-ads-adservices-java-1.1.0-beta11-45 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/8db84348d81ca864b20dbeec76eaa3b7/transformed/ads-adservices-java-1.1.0-beta11/res
+com.ghostwhisper.app-material-release-46 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/9aa6273cb22bf94599a90855a48253be/transformed/material-release/res
+com.ghostwhisper.app-savedstate-1.2.1-47 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/9ab5ad7c25fda35177119b93bb679eee/transformed/savedstate-1.2.1/res
+com.ghostwhisper.app-savedstate-ktx-1.2.1-48 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/9c61d0b2419e8acbe7d08d4016075ab6/transformed/savedstate-ktx-1.2.1/res
+com.ghostwhisper.app-datastore-release-49 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/9e2f2f774816ff1a9c1c3871f652c0b9/transformed/datastore-release/res
+com.ghostwhisper.app-annotation-experimental-1.4.1-50 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/a6e790a98c4ed029b86cfd1adf8058d3/transformed/annotation-experimental-1.4.1/res
+com.ghostwhisper.app-lifecycle-viewmodel-compose-release-51 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/a859a0fb863a4dd35f2120f938329140/transformed/lifecycle-viewmodel-compose-release/res
+com.ghostwhisper.app-ui-tooling-data-release-52 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/a9e17d8dbf3058b78a657f1b567d5398/transformed/ui-tooling-data-release/res
+com.ghostwhisper.app-datastore-preferences-core-release-53 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/ae10775d4bdc6031c125ef2e63f3ca9c/transformed/datastore-preferences-core-release/res
+com.ghostwhisper.app-animation-release-54 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/af75fb1f79bc9baa9a66c0776a19df6b/transformed/animation-release/res
+com.ghostwhisper.app-play-services-basement-18.9.0-55 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/b001bfadce182d0c13ea2857164c2603/transformed/play-services-basement-18.9.0/res
+com.ghostwhisper.app-navigation-common-2.8.5-56 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/b2313087fadd2c5cefad0bd5ef541768/transformed/navigation-common-2.8.5/res
+com.ghostwhisper.app-datastore-core-release-57 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/b80438637764bd5da16a74d697b43e61/transformed/datastore-core-release/res
+com.ghostwhisper.app-tracing-1.2.0-58 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/b9132086b8e9a7a8845a820b30f008cf/transformed/tracing-1.2.0/res
+com.ghostwhisper.app-material3-release-59 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/bdefedb7574b367bedf4e297821c9421/transformed/material3-release/res
+com.ghostwhisper.app-room-runtime-2.6.1-60 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/beae8703583f14fe2a1a38883c09421a/transformed/room-runtime-2.6.1/res
+com.ghostwhisper.app-datastore-preferences-release-61 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/c58d8a201d6b9aee998ddd52184a2ee2/transformed/datastore-preferences-release/res
+com.ghostwhisper.app-firebase-common-22.0.1-62 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/c810cd69d30c6b0c3c6994f2fa686b5b/transformed/firebase-common-22.0.1/res
+com.ghostwhisper.app-material-icons-extended-release-63 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/cf5a9851b53e9faa74ea28d8d1ef3b11/transformed/material-icons-extended-release/res
+com.ghostwhisper.app-core-runtime-2.2.0-64 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/cfa83273c6413a61bbefd3ebe4c99129/transformed/core-runtime-2.2.0/res
+com.ghostwhisper.app-profileinstaller-1.3.1-65 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/d47656ee5436b8c5067e4549396d9fe5/transformed/profileinstaller-1.3.1/res
+com.ghostwhisper.app-activity-1.9.3-66 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/dbfcd6854dace3601bd1f46ce838727d/transformed/activity-1.9.3/res
+com.ghostwhisper.app-ui-test-manifest-1.7.6-67 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/dc6d93b7592f2f5570ad40e22d4261ce/transformed/ui-test-manifest-1.7.6/res
+com.ghostwhisper.app-fragment-1.5.7-68 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/e189c64353f3e7ea4c09f9409b451936/transformed/fragment-1.5.7/res
+com.ghostwhisper.app-core-1.15.0-69 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/e4d1c9e75e47861b898f2f45a45621be/transformed/core-1.15.0/res
+com.ghostwhisper.app-appcompat-resources-1.2.0-70 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/eae870dea8887f9494f556729dbdb35f/transformed/appcompat-resources-1.2.0/res
+com.ghostwhisper.app-ui-tooling-preview-release-71 /Users/chhayanshporwal/.gradle/caches/8.13/transforms/eea97cda3135e744731a0786f3232836/transformed/ui-tooling-preview-release/res
+com.ghostwhisper.app-pngs-72 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/generated/res/pngs/debug
+com.ghostwhisper.app-res-73 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/generated/res/processDebugGoogleServices
+com.ghostwhisper.app-resValues-74 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/generated/res/resValues/debug
+com.ghostwhisper.app-updated_navigation_xml-75 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/generated/updated_navigation_xml/debug
+com.ghostwhisper.app-packageDebugResources-76 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.ghostwhisper.app-packageDebugResources-77 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.ghostwhisper.app-debug-78 /Users/chhayanshporwal/Projects/Ghost Whisper/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.ghostwhisper.app-debug-79 /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/debug/res
+com.ghostwhisper.app-main-80 /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/res

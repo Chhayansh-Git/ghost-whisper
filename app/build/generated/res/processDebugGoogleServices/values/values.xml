@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">352960595482-t76s4e94po2evijcap0vu411j15n63g7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">352960595482</string>
+    <string name="google_api_key" translatable="false">AIzaSyANYX57pEQwmJnN7jkE3oC819bJhbIFI2s</string>
+    <string name="google_app_id" translatable="false">1:352960595482:android:216fcda71c37a9842ab3a3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANYX57pEQwmJnN7jkE3oC819bJhbIFI2s</string>
+    <string name="google_storage_bucket" translatable="false">ghost-whisper.firebasestorage.app</string>
+    <string name="project_id" translatable="false">ghost-whisper</string>
+</resources>

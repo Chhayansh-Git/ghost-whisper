@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "352960595482",
+    "project_id": "ghost-whisper",
+    "storage_bucket": "ghost-whisper.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352960595482:android:216fcda71c37a9842ab3a3",
+        "android_client_info": {
+          "package_name": "com.ghostwhisper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352960595482-sst0qgb4k4fn5piamnfvrrviqt7odb8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghostwhisper",
+            "certificate_hash": "c246bbb94ad8c6e1aa884196edd1c74d6185ff36"
+          }
+        },
+        {
+          "client_id": "352960595482-t76s4e94po2evijcap0vu411j15n63g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYX57pEQwmJnN7jkE3oC819bJhbIFI2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352960595482-t76s4e94po2evijcap0vu411j15n63g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
