@@ -157,10 +157,10 @@
 86-->/Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:54:23-52
 87                <data
 87-->/Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:54:17-75
-88                    android:host="ghostwhisper.app"
+88                    android:host="chhayansh-git.github.io"
 88-->/Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:54:53-72
 89                    android:pathPrefix="/join"
-89-->/Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:55:78-104
+89-->/Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:55:85-111
 90                    android:scheme="https" />
 90-->/Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:54:23-52
 91            </intent-filter>

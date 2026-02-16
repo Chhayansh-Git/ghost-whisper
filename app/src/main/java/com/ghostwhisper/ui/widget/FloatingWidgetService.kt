@@ -232,22 +232,33 @@ class FloatingWidgetService : Service() {
         currentState = newState
         val textView = widgetView as? TextView ?: return
 
+        // Helper to create a rounded background
+        fun getRoundedBackground(color: Int): android.graphics.drawable.GradientDrawable {
+            return android.graphics.drawable.GradientDrawable().apply {
+                setColor(color)
+                cornerRadius = dpToPx(28).toFloat() // Fully rounded
+                shape = android.graphics.drawable.GradientDrawable.RECTANGLE
+            }
+        }
+
         when (newState) {
             WidgetState.IDLE -> {
                 textView.text = "👻"
-                textView.setBackgroundColor(0x88_1A1A2E.toInt())
+                textView.background = null // Transparent/No background
                 textView.alpha = 0.85f
                 widgetView?.visibility = View.VISIBLE
             }
             WidgetState.ACTIVE -> {
                 textView.text = "👻"
-                textView.setBackgroundColor(0xCC_1B5E20.toInt()) // Green glow
+                // Green glow with rounded corners
+                textView.background = getRoundedBackground(0xCC_1B5E20.toInt())
                 textView.alpha = 1.0f
                 widgetView?.visibility = View.VISIBLE
             }
             WidgetState.CHANNEL -> {
                 textView.text = "🔒"
-                textView.setBackgroundColor(0xCC_4A148C.toInt()) // Purple
+                // Purple with rounded corners
+                textView.background = getRoundedBackground(0xCC_4A148C.toInt())
                 textView.alpha = 1.0f
                 widgetView?.visibility = View.VISIBLE
             }
