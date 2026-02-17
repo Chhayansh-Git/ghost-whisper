@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joining Ghost Whisper Channel...</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; background: #f0f0f0; display: flex; flex-direction: column; justify-content: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 400px; margin: 0 auto; }
+        h1 { color: #6200EE; margin-bottom: 10px; }
+        p { color: #555; margin-bottom: 20px; }
+        .button {
+            display: inline-block;
+            background-color: #6200EE;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .button:hover { background-color: #3700b3; }
+        .ghost { font-size: 48px; margin-bottom: 15px; }
+    </style>
+    <script>
+        function redirect() {
+            // Get query parameters (key, name)
+            const params = window.location.search;
+            // Construct Intent URI
+            // ghostwhisper://join?key=...&name=...
+            const intentUri = "ghostwhisper://join" + params;
+            
+            // Attempt to open the app
+            window.location.href = intentUri;
+            
+            // Fallback: If app doesn't open after a short delay, stay here (user sees the button)
+            // Note: Automated redirect might be blocked by some browsers, so we show a button too.
+        }
+        
+        window.onload = redirect;
+    </script>
+</head>
+<body>
+    <div class="card">
+        <div class="ghost">👻</div>
+        <h1>Ghost Whisper</h1>
+        <p>Opening channel invitation...</p>
+        
+        <p>If the app doesn't open automatically, tap the button below:</p>
+        
+        <a id="btn" href="#" onclick="redirect(); return false;" class="button">Open App</a>
+        
+        <p style="font-size: 12px; margin-top: 30px; color: #999;">
+            Don't have the app? <a href="https://github.com/Chhayansh-Git/ghost-whisper/releases" style="color: #6200EE;">Download here</a>.
+        </p>
+    </div>
+</body>
+</html>

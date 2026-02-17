@@ -306,7 +306,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
 		ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:46:27-74
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:chhayansh-git.github.io+data:host:join+data:pathPrefix:/join+data:scheme:ghostwhisper+data:scheme:https
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:chhayansh-git.github.io+data:host:join+data:pathPrefix:/ghost-whisper/join+data:scheme:ghostwhisper+data:scheme:https
 ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:50:13-56:29
 	android:autoVerify
 		ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:50:28-54
@@ -329,7 +329,7 @@ ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidMan
 	android:scheme
 		ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:54:23-52
 	android:pathPrefix
-		ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:55:85-111
+		ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:55:85-125
 service#com.ghostwhisper.service.GhostWhisperService
 ADDED from /Users/chhayanshporwal/Projects/Ghost Whisper/app/src/main/AndroidManifest.xml:60:9-70:19
 	android:exported

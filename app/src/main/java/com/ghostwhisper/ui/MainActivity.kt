@@ -46,14 +46,26 @@ import kotlinx.coroutines.launch
  * - Deep link imports (ghostwhisper://join?key=...&name=...)
  */
 class MainActivity : FragmentActivity() {
+    // State for pending invitation
+    private var pendingInvitation by mutableStateOf<Pair<String, String>?>(null)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // Handle deep link key imports
         handleDeepLink(intent)
-
-        setContent { GhostWhisperTheme { AppLockWrapper { GhostWhisperRoot() } } }
+        setContent {
+            GhostWhisperTheme {
+                AppLockWrapper {
+                    GhostWhisperRoot(
+                            pendingInvitation = pendingInvitation,
+                            onAcceptInvitation = { name, key ->
+                                importChannelAndNotify(name, key)
+                                pendingInvitation = null
+                            },
+                            onRejectInvitation = { pendingInvitation = null }
+                    )
+                }
+            }
+        }
     }
 
     override fun onNewIntent(intent: Intent) {
@@ -64,41 +76,105 @@ class MainActivity : FragmentActivity() {
     private fun handleDeepLink(intent: Intent?) {
         val uri = intent?.data ?: return
         val isCustomScheme = uri.scheme == "ghostwhisper" && uri.host == "join"
-        val isWebScheme =
-                uri.scheme == "https" &&
-                        uri.host == "ghostwhisper.app" &&
-                        uri.path?.startsWith("/join") == true
+        // Also handle the https link in case App Links eventually work
+        val isWebScheme = uri.scheme == "https" && uri.host == "chhayansh-git.github.io"
 
         if (isCustomScheme || isWebScheme) {
             val key = uri.getQueryParameter("key")
             val name = uri.getQueryParameter("name")
-
             if (key != null && name != null) {
-                val repository = KeyringRepository(KeyringDatabase.getInstance(this).keyringDao())
-                kotlinx.coroutines.GlobalScope.launch {
-                    try {
-                        repository.importChannel(name, key)
-                        runOnUiThread {
-                            Toast.makeText(
-                                            this@MainActivity,
-                                            "Channel \"$name\" imported! 🔑",
-                                            Toast.LENGTH_LONG
-                                    )
-                                    .show()
-                        }
-                    } catch (e: Exception) {
-                        runOnUiThread {
-                            Toast.makeText(
-                                            this@MainActivity,
-                                            "Import failed: ${e.message}",
-                                            Toast.LENGTH_LONG
-                                    )
-                                    .show()
-                        }
-                    }
+                pendingInvitation = name to key
+            }
+        }
+    }
+
+    private fun importChannelAndNotify(name: String, key: String) {
+        val repository = KeyringRepository(KeyringDatabase.getInstance(this).keyringDao())
+        kotlinx.coroutines.GlobalScope.launch {
+            try {
+                repository.importChannel(name, key)
+                runOnUiThread {
+                    Toast.makeText(this@MainActivity, "Joined \"$name\"! 🔒", Toast.LENGTH_SHORT)
+                            .show()
+                    // Prompt to notify inviter
+                    promptToNotifyInviter(name)
+                }
+            } catch (e: Exception) {
+                runOnUiThread {
+                    Toast.makeText(this@MainActivity, "Error: ${e.message}", Toast.LENGTH_LONG)
+                            .show()
                 }
             }
         }
+    }
+
+    private fun promptToNotifyInviter(channelName: String) {
+        // We cannot know who sent the link, so we let the user pick the contact to reply to.
+        val message =
+                "🔒 I have accepted your invitation to join the Ghost Whisper channel \"$channelName\"."
+        val intent =
+                Intent(Intent.ACTION_SEND).apply {
+                    type = "text/plain"
+                    putExtra(Intent.EXTRA_TEXT, message)
+                    setPackage("com.whatsapp")
+                }
+        try {
+            startActivity(Intent.createChooser(intent, "Notify Inviter via..."))
+        } catch (e: Exception) {
+            Toast.makeText(this, "Could not open WhatsApp to notify inviter.", Toast.LENGTH_SHORT)
+                    .show()
+        }
+    }
+}
+
+@Composable
+fun GhostWhisperRoot(
+        pendingInvitation: Pair<String, String>? = null,
+        onAcceptInvitation: (String, String) -> Unit = { _, _ -> },
+        onRejectInvitation: () -> Unit = {}
+) {
+    val authRepository = remember { AuthRepository() }
+    val userRepository = remember { UserRepository() }
+    var isLoggedIn by remember { mutableStateOf(authRepository.isLoggedIn) }
+
+    if (pendingInvitation != null) {
+        AlertDialog(
+                onDismissRequest = onRejectInvitation,
+                icon = { Icon(Icons.Filled.Mail, contentDescription = null, tint = GhostPurple) },
+                title = { Text("Join Channel?") },
+                text = {
+                    Text(
+                            "You have been invited to join the private channel:\n\n\"${pendingInvitation.first}\"\n\nDo you want to accept this key?"
+                    )
+                },
+                confirmButton = {
+                    Button(
+                            onClick = {
+                                onAcceptInvitation(
+                                        pendingInvitation.first,
+                                        pendingInvitation.second
+                                )
+                            },
+                            colors = ButtonDefaults.buttonColors(containerColor = GhostPurple)
+                    ) { Text("Accept & Join") }
+                },
+                dismissButton = {
+                    TextButton(onClick = onRejectInvitation) {
+                        Text("Reject", color = MaterialTheme.colorScheme.error)
+                    }
+                }
+        )
+    }
+
+    if (!isLoggedIn || authRepository.currentUser == null) {
+        LoginScreen(
+                authRepository = authRepository,
+                userRepository = userRepository,
+                webClientId = stringResource(com.ghostwhisper.R.string.default_web_client_id),
+                onLoginSuccess = { isLoggedIn = true }
+        )
+    } else {
+        GhostWhisperMainApp(onSignOut = { isLoggedIn = false })
     }
 }
 

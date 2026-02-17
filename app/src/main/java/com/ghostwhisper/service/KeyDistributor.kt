@@ -187,7 +187,7 @@ class KeyDistributor(private val context: Context) {
 
     /** Build the ghostwhisper:// join URI. */
     private fun buildJoinUri(channelName: String, keyBase64: String): String {
-        return "https://chhayansh-git.github.io/join?key=${Uri.encode(keyBase64)}&name=${Uri.encode(channelName)}"
+        return "https://chhayansh-git.github.io/ghost-whisper/join/?key=${Uri.encode(keyBase64)}&name=${Uri.encode(channelName)}"
     }
 
     /** Build the distribution message with deep link and download link. */

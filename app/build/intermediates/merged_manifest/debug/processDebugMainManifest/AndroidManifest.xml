@@ -86,7 +86,7 @@
                     android:scheme="ghostwhisper" />
                 <data
                     android:host="chhayansh-git.github.io"
-                    android:pathPrefix="/join"
+                    android:pathPrefix="/ghost-whisper/join"
                     android:scheme="https" />
             </intent-filter>
         </activity>

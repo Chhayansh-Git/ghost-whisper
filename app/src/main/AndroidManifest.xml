@@ -52,7 +52,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="ghostwhisper" android:host="join" />
-                <data android:scheme="https" android:host="chhayansh-git.github.io" android:pathPrefix="/join" />
+                <data android:scheme="https" android:host="chhayansh-git.github.io" android:pathPrefix="/ghost-whisper/join" />
             </intent-filter>
         </activity>
 
